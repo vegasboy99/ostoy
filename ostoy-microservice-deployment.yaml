@@ -32,12 +32,12 @@ spec:
         resources:
           requests:
             memory: "128Mi"
-            cpu: 18
-            #cpu: "50m"
+       #     cpu: 18
+            cpu: "50m"
           limits:
             memory: "256Mi"
-            cpu: 19
-            #cpu: "100m"
+            #cpu: 19
+            cpu: "100m"
 ---
 apiVersion: v1
 kind: Service
